@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 400px;
+  min-width: 400px;
+  background-color: #dfe6e9;
+  text-align: center;
+}
+
+.card {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #d6eafa;
+  display: flex;
+  margin: 30% auto;
+  height: 210px;
+  box-shadow: 0 5px 5px #ccc;
+  text-align: left;
+}
+
+.top {
+  border-radius: 25px 25px 0 0;
+  height: 90px;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #10568f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.name {
+  font-size: 1.2em;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #f3f3f3;
+  display: flex;
+  flex: 1;
+  padding-left: 15px;
+  margin: 9% 0 0 5%;
+}
+
+.card img {
+  right: 10px;
+  top: 10px;
+  position: absolute;
+}
+
+.icon-set {
+  margin: 0 30px 0 0;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 12px solid #10568f;
+  width: 100px;
+  height: 100px;
+}
+
+.bottom {
+  margin-top: 85px;
+}
+
+.title {
+  font-size: 18px;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-bottom: 0px;
+}
+
+.content {
+  font-family: "Arsenal", sans-serif;
+  padding-left: 15px;
+  font-size: 14px;
+  color: #10568f;
+  margin: 0;
+}
+
+.content p {
+  margin: 0px 0 20px 0;
+}
